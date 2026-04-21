@@ -1,2 +1,5 @@
-apt_src nghttp2
-apply_patches
+pkg=nghttp2
+version="1.68.1-1"
+git_src --branch debian/$version "https://salsa.debian.org/debian/nghttp2.git"
+echo "$version" > "$dir/src/.dist-version"
+version_suffix=gl0
