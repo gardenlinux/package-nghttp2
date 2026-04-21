@@ -1,2 +1,3 @@
-# package-nghttp2
-Rebuild of Debians nghttp2
+# Garden Linux package nghttp2
+
+This is a rebuild of Debian's *nghttp2* package
