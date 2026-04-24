@@ -1,4 +1,4 @@
 pkg=nghttp2
 version="1.68.1-1"
 git_src --branch debian/$version "https://salsa.debian.org/debian/nghttp2.git"
-version_suffix=gl0
+version_suffix=gl0~bp1877
