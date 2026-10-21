@@ -1,0 +1,11 @@
+--- a/debian/control	2026-10-21 11:50:50.000000000 +0000
++++ b/debian/control	2026-10-21 11:51:41.453638311 +0000
+@@ -3,7 +3,7 @@
+ Maintainer: Tomasz Buchert <tomasz@debian.org>
+ Uploaders: Ondřej Surý <ondrej@debian.org>
+ Section: httpd
+-Build-Depends: debhelper-compat (= 14),
++Build-Depends: debhelper-compat (= 13),
+                libc-ares-dev,
+                libcunit1-dev <!nocheck>,
+                libev-dev,
